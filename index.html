@@ -17,21 +17,22 @@
 	<link rel="icon" href="images/main_logo.ico">
 
 	<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-	(function(){
-	var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-	s1.async=true;
-	s1.src='https://embed.tawk.to/5e0c744e7e39ea1242a28fec/default';
-	s1.charset='UTF-8';
-	s1.setAttribute('crossorigin','*');
-	s0.parentNode.insertBefore(s1,s0);
-	})();
+	<script type="text/javascript">
+		var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+		(function () {
+			var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+			s1.async = true;
+			s1.src = 'https://embed.tawk.to/5e0c744e7e39ea1242a28fec/default';
+			s1.charset = 'UTF-8';
+			s1.setAttribute('crossorigin', '*');
+			s0.parentNode.insertBefore(s1, s0);
+		})();
 	</script>
 	<!--End of Tawk.to Script-->
 
 
-	<!-- Appzi: Capture Insightful Feedback --><script async src="https://w.appzi.io/w.js?token=KcyPa"></script><!-- End Appzi -->
+	<!-- Appzi: Capture Insightful Feedback -->
+	<script async src="https://w.appzi.io/w.js?token=KcyPa"></script><!-- End Appzi -->
 </head>
 
 <body class="is-preload">
@@ -39,9 +40,9 @@
 	<!-- Header -->
 	<header id="header">
 		<a class="logo" href="/">
-			
-			<img src="images/main_logo.ico" alt="selanns Properties" height="50">
-	</a>
+
+			<img id="pagelogo" src="images/main_logo.ico" alt="selanns Properties" height="56">
+		</a>
 		<nav>
 			<a href="#menu">Menu</a>
 		</nav>
@@ -70,7 +71,7 @@
 	<section class="wrapper">
 		<div class="inner">
 			<header class="special">
-				<h2>SERVICES WE OFERR</h2>
+				<h2>OUR SERVICES</h2>
 				<p>We offer the followeing services to our Customers.</p>
 			</header>
 			<div class="highlights">
@@ -81,7 +82,8 @@
 							<h3>Real Estate Development
 							</h3>
 						</header>
-						<p>We help our customers buid their dream home yet afordabale with the state of the act
+						<p class="service">We help our customers buid their dream home yet afordabale with the state of
+							the act
 							materials
 							at which they can afford.
 
@@ -95,7 +97,8 @@
 							<h3>General construction and Architectural drawings
 							</h3>
 						</header>
-						<p>We are proffessionals in home design and general building drawsings with the best softwares
+						<p class="service">We are proffessionals in home design and general building drawsings with the
+							best softwares
 
 						</p>
 					</div>
@@ -107,7 +110,8 @@
 							<h3>Land Sales & Registration
 							</h3>
 						</header>
-						<p>At <b>SELANNS PROPERTIES</b>, we help our customers with litigation free lands
+						<p class="service">At <b>SELANNS PROPERTIES</b>, we help our customers with litigation free
+							lands
 							and a discount on any land bought from us per plot,we also ready to buy lands from trusted
 							sources.
 							<em>WE DON'T DEAL WITH THIRED PARTIES (middlemen)</em>
@@ -121,7 +125,7 @@
 							<h3>Hiring of GPS
 							</h3>
 						</header>
-						<p>The safety of our customers is our priority so we provide the latest
+						<p class="service">The safety of our customers is our priority so we provide the latest
 							and accurate GPS tracking devices to help protect our customers and thire properties.
 						</p>
 					</div>
@@ -133,7 +137,8 @@
 							<h3>Selling of building materials
 							</h3>
 						</header>
-						<p>With the location or our company, giving you the right materials for your business is assured
+						<p class="service">With the location or our company, giving you the right materials for your
+							business is assured
 							mostly in
 							(Sand, Stone,Gravels & Granite)</p>
 					</div>
@@ -144,7 +149,8 @@
 							<a href="#" class="icon fa-map-marker"><span class="label">Icon</span></a>
 							<h3>Documentation and Land Surveying</h3>
 						</header>
-						<p>Providing our customers with litigation free lands makes it possible for us to provide 
+						<p class="service">Providing our customers with litigation free lands makes it possible for us
+							to provide
 							accurate but fast land and building documents for our customers
 						</p>
 					</div>
@@ -168,16 +174,21 @@
 		<div class="inner">
 			<h2 class="capitalize">Selanns Properties</h2>
 			<p style="font-weight: bolder;font-size: larger">
-				Real Estate Agent(Dealing in Building Materials, Leasing/Renting, Sale Of Properties) Documentation and Surveying' 
+				Real Estate Agent(Dealing in Building Materials, Leasing/Renting, Sale Of Properties) Documentation and
+				Surveying'
 			</p>
-			<p>
-			
-				<h4 class="btn">Talk To Us</h4>
-				<div style="display: inline;">
-					<a class=" a_button" href="https://api.whatsapp.com/send?phone=+233 27 682 7209&text=Greetings from selanns_properties feel free to message us" target="_blank" rel="noopener noreferrer">
-						Via Whatsapp</a> <h4>OR</h4> <a class="a_button" href="tel:+233276827209">Call</a>
-				</div>
-			</p>
+		
+
+			<h4 class="btn">Talk To Us</h4> 
+			<div style="display: inline;" id="callus">
+				<a class=" a_button"
+					href="https://api.whatsapp.com/send?phone=+233 27 682 7209&text=Greetings from selanns_properties feel free to message us"
+					target="_blank" rel="noopener noreferrer">
+					Via Whatsapp</a>
+				<!-- <h4>OR</h4> --> OR
+				 <a class="a_button fa fa-phone" style="margin-left: 2px;" href="tel:+233276827209"> 0276827209</a>
+			</div>
+		
 		</div>
 	</section>
 
@@ -193,12 +204,14 @@
 					<div class="content">
 						<blockquote>
 							<p>
-								We have been able to make scaling the technical infrastructure of our business cost effective and efficient.
+								We have been able to make scaling the technical infrastructure of our business cost
+								effective and efficient.
 							</p>
 						</blockquote>
 						<div class="author">
 							<div class="image">
-								<img src="https://devtraco.com/houses/wp-content/uploads/2017/02/Joshua-Yeboah-Gyabaah-150x150.jpg" alt="" />
+								<img src="https://devtraco.com/houses/wp-content/uploads/2017/02/Joshua-Yeboah-Gyabaah-150x150.jpg"
+									alt="" />
 							</div>
 							<p class="credit">- <strong>Emmanuel Aggrey</strong> <span> CEO - aggrey.io</span></p>
 						</div>
@@ -207,14 +220,15 @@
 				<section>
 					<div class="content">
 						<blockquote>
-							<p>have been making been working with selanns_properties for some time now and love their 
+							<p>have been working with selanns_properties for some time now and love their
 								service, the company is one of the best i've come into contact with </code>
 							</p>
 						</blockquote>
-						
+
 						<div class="author">
 							<div class="image">
-								<img src="https://devtraco.com/houses/wp-content/uploads/2017/02/Prince-Desmond-Osei-150x150.jpg" alt="" />
+								<img src="https://devtraco.com/houses/wp-content/uploads/2017/02/Prince-Desmond-Osei-150x150.jpg"
+									alt="" />
 							</div>
 							<p class="credit">- <strong>Osmond Ofori </strong> <span></span></p>
 						</div>
@@ -224,12 +238,14 @@
 					<div class="content">
 						<blockquote>
 							<p>
-								Our building costs have decreased by over 90% and we’re running at about 25% of our capacity allowing us to quickly scale.
+								Our building costs have decreased by over 90% and we’re running at about 25% of our
+								capacity allowing us to quickly scale.
 							</p>
 						</blockquote>
 						<div class="author">
 							<div class="image">
-								<img src="https://devtraco.com/houses/wp-content/uploads/2017/02/ato-brown-testimonial-150x150.jpg" alt="" />
+								<img src="https://devtraco.com/houses/wp-content/uploads/2017/02/ato-brown-testimonial-150x150.jpg"
+									alt="" />
 							</div>
 							<p class="credit">- <strong>Stephen Quarshie</strong> <span></span></p>
 						</div>
@@ -240,9 +256,11 @@
 	</section>
 
 
-    <a title="whatsapp us" class="" style="color: #00B7A3;" id="myBtn" href="https://api.whatsapp.com/send?phone=+233 27 682 7209&text=Greetings from selanns_properties feel free to message us" target="_blank" rel="noopener noreferrer">
-        <i  class="fa fa-whatsapp fa-3x" aria-hidden="true"></i>
-        </a>
+	<a title="whatsapp us" class="" style="color: #00B7A3;" id="myBtn"
+		href="https://api.whatsapp.com/send?phone=+233 27 682 7209&text=Greetings from selanns_properties feel free to message us"
+		target="_blank" rel="noopener noreferrer">
+		<i class="fa fa-whatsapp fa-3x" aria-hidden="true"></i>
+	</a>
 	<!-- Footer -->
 	<footer id="footer">
 		<div class="inner">
@@ -250,22 +268,23 @@
 				<section>
 					<!-- <h3>Selanns Properties</h3> -->
 					<a class="logo" href="/">
-						
+
 						<img src="images/main_logo.ico" alt="selanns Properties" height="50">
-				</a>
-					
+					</a>
+
 					<p>
-						Real Estate Agent(Dealing in Building Materials, Leasing/Renting, Sale Of Properties) Documentation and Surveying'
-						
+						Real Estate Agent(Dealing in Building Materials, Leasing/Renting, Sale Of Properties)
+						Documentation and Surveying'
+
 					</p>
 					<p>We have Lands available in this locations</p>
 					<ul class="alt">
-						<li><a href="#">Opposite Data link @shai-hills 
-							70x100 land Registered 
-							15,000</a></li>
+						<li><a href="#">Opposite Data link @shai-hills
+								70x100 land Registered
+								15,000</a></li>
 						<li><a href="#">Afienya,Tema</a></li>
 						<li><a href="#">Dodowa,Amasaman,Kpone</a></li>
-					
+
 
 					</ul>
 
@@ -284,22 +303,25 @@
 					</ul>
 				</section>
 				<section>
-					<h4>Magna sed ipsum</h4>
+					<h4>Follow Us On</h4>
 					<ul class="plain">
 						<li><a href="#"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
 						<li><a href="#"><i class="icon fa-facebook">&nbsp;</i>Facebook</a></li>
-						<li><a href="https://www.instagram.com/selanns_properties/"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
+						<li><a href="https://www.instagram.com/selanns_properties/"><i
+									class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
 					</ul>
 				</section>
 			</div>
 			<div class="copyright">
-				<p style="">Copyright &copy; selanns_properties <script>document.write(new Date().getFullYear());</script> </p>
+				<p style="">Copyright &copy; selanns_properties
+					<script>document.write(new Date().getFullYear());</script>
+				</p>
 			</div>
 		</div>
 	</footer>
 
 
-<!-- 
+	<!-- 
 	 <script>
 		//Get the button
 		var mybutton = document.getElementById("myBtn");
@@ -317,38 +339,39 @@
 		
 		
 		</script> -->
-	
+
 
 	<style>
-
 		#myBtn {
-		  display: none;
-		  position: fixed;
-		  bottom: 20px;
-		  left: 30px;
-		  z-index: 99;
-		  font-size: 18px;
-		  /* border: none; */
-		  outline: none;
-		  /* background-color:green; */
-		  color:#00B7A3;
-		  cursor: pointer;
-		  padding: 15px;
-		  border-radius: 4px;
-		
+			display: none;
+			position: fixed;
+			bottom: 20px;
+			left: 30px;
+			z-index: 99;
+			font-size: 18px;
+			/* border: none; */
+			outline: none;
+			/* background-color:green; */
+			color: #00B7A3;
+			cursor: pointer;
+			padding: 15px;
+			border-radius: 4px;
+
 		}
+
 		.a_button {
-  font: bold 20px Arial;
-  text-decoration: none;
-  background-color: #bd1e1e;
-  color: #333333;
-  padding: 2px 6px 2px 6px;
-  border-top: 10px solid #CCCCCC;
-  border-right: 10px solid #333333;
-  border-bottom: 10px solid #333333;
-  border-left: 1px solid #CCCCCC;
-}
-		</style>
+			font: bold 20px Arial;
+			text-decoration: none;
+			background-color: #bd1e1e;
+			color: #333333;
+			padding: 2px 6px 2px 6px;
+			border-top: 10px solid #CCCCCC;
+			border-right: 10px solid #333333;
+			border-bottom: 10px solid #333333;
+			border-left: 1px solid #CCCCCC;
+
+		}
+	</style>
 
 
 
