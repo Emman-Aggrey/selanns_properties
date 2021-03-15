@@ -20,7 +20,7 @@
 	<link rel="icon" href="images/main_logo.ico">
 
 	<!--Start of Tawk.to Script-->
-	<script type="text/javascript">
+	<!-- <script type="text/javascript">
 		var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
 		(function () {
 			var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
@@ -30,9 +30,49 @@
 			s1.setAttribute('crossorigin', '*');
 			s0.parentNode.insertBefore(s1, s0);
 		})();
-	</script>
+	</script> -->
 	<!--End of Tawk.to Script-->
 
+
+
+<!-- wati whatsapp widget start -->
+<script>
+    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?56332';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+  "enabled":true,
+  "chatButtonSetting":{
+      "backgroundColor":"#006618",
+      "ctaText":"chat with us",
+      "borderRadius":"25",
+      "marginLeft":"0",
+      "marginBottom":"50",
+      "marginRight":"50",
+      "position":"right"
+  },
+  "brandSetting":{
+      "brandName":"SELANNS PROPERTIES",
+      "brandSubTitle":"Typically replies within a day",
+      "brandImg":"http://www.selannsproperties.com/images/new%20logo%20new.jpg",
+      "welcomeText":"Hi, there! 👋\nHow can we help you?\n",
+      "messageText":"%0Awan't to make an inquiry about your lands.",
+      "backgroundColor":"#006618",
+      "ctaText":"Start Chat",
+      "borderRadius":"25",
+      "autoShow":false,
+      "phoneNumber":"233276827209"
+  }
+};
+    s.onload = function() {
+        CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+</script>
+<!-- wati whatsapp widget end -->
 
 	<!-- Appzi: Capture Insightful Feedback -->
 	<script async src="https://w.appzi.io/w.js?token=KcyPa"></script><!-- End Appzi -->
